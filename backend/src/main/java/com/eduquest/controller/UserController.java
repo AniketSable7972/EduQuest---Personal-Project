@@ -1,3 +1,4 @@
+// backend/src/main/java/com/eduquest/controller/UserController.java
 package com.eduquest.controller;
 
 import com.eduquest.dto.ApiResponse;

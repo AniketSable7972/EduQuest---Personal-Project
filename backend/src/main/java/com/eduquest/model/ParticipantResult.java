@@ -1,3 +1,4 @@
+// backend/src/main/java/com/eduquest/model/ParticipantResult.java
 package com.eduquest.model;
 
 import lombok.AllArgsConstructor;

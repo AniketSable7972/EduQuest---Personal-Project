@@ -1,3 +1,4 @@
+// backend/src/main/java/com/eduquest/config/SecurityConfig.java
 package com.eduquest.config;
 
 import com.eduquest.security.JwtAuthFilter;
@@ -41,8 +42,7 @@ public class SecurityConfig {
                         .requestMatchers("/api/auth/**").permitAll()
                         .requestMatchers("/ws/**").permitAll()
                         .requestMatchers(HttpMethod.GET, "/uploads/**").permitAll()
-                        .anyRequest().authenticated()
-                )
+                        .anyRequest().authenticated())
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();

@@ -1,3 +1,4 @@
+// backend/src/main/java/com/eduquest/config/WebSocketConfig.java
 package com.eduquest.config;
 
 import org.springframework.context.annotation.Configuration;

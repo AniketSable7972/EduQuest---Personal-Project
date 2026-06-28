@@ -1,3 +1,4 @@
+// backend/src/main/java/com/eduquest/config/WebConfig.java
 package com.eduquest.config;
 
 import org.springframework.beans.factory.annotation.Value;

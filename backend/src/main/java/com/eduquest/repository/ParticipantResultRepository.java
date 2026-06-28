@@ -1,3 +1,4 @@
+// backend/src/main/java/com/eduquest/repository/ParticipantResultRepository.java
 package com.eduquest.repository;
 
 import com.eduquest.model.ParticipantResult;

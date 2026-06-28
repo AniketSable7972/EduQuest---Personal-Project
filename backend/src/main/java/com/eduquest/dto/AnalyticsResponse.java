@@ -1,3 +1,4 @@
+// backend/src/main/java/com/eduquest/dto/AnalyticsResponse.java
 package com.eduquest.dto;
 
 import lombok.AllArgsConstructor;
