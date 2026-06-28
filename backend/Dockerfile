@@ -1,5 +1,5 @@
-# Build stage
-FROM eclipse-temurin:21-jdk AS builder
+# ---------- Build Stage ----------
+FROM eclipse-temurin:17-jdk AS builder
 
 WORKDIR /app
 
@@ -8,8 +8,8 @@ COPY . .
 RUN chmod +x mvnw
 RUN ./mvnw clean package -DskipTests
 
-# Runtime stage
-FROM eclipse-temurin:21-jre
+# ---------- Runtime Stage ----------
+FROM eclipse-temurin:17-jre
 
 WORKDIR /app
 
